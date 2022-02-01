@@ -51,7 +51,7 @@
   },
   "scripts": {
     "test:e2e": "playwright test",
-    "pretest:e2e:ci": "playwright install && playwright install-deps",
+    "pretest:e2e:ci": "playwright install",
     "test:e2e:ci": "CI=true start-server-and-test start http://localhost:3000 test:e2e",
     "start": "react-app-rewired start"
   },
